@@ -13,7 +13,7 @@ public class CD extends BasicDisk implements OptimalDisk {
 
     @Override
     public void startMedia() {
-        System.out.println(this.getName() + "\n" + this.getContent());
+        System.out.println(this.getName() + ": " + this.getContent());
     }
 
     // TODO: Implement your custom interface.
@@ -21,5 +21,5 @@ public class CD extends BasicDisk implements OptimalDisk {
     // TODO: Determine which fields, methods, and constructors can be extended from the base class and which ones
     //  need to be declared separately.
 
-
 }
+
